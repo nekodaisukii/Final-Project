@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baking Corner - 首頁</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/CSS/Style.css">
+   <!--Bootstrap 4.1.1-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+        
+</head>
+<body>
+  <!-- 導覽列 -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light custom-navbar">
+    <a class="navbar-brand font-weight-bold text-pink" href="#">Baking Corner</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active"><a class="nav-link" href="/home.html">首頁</a></li>
+    <!--Toggle Dropdown Button-->
+     <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="/Pages/About us.html" id="aboutDropdown" role="button" data-toggle="dropdown">
+          關於我們
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="/Pages/About Us/Our Team.html">我們的團隊</a>
+          <a class="dropdown-item" href="/Pages/About Us/Join Us.html">成為會員</a>
+          <a class="dropdown-item" href="/Pages/About Us/Contact Us.html">聯絡我們</a>
+        </div>
+        </li>
+    <!--Service Dropdown-->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="serviceDropdown" role="button" data-toggle="dropdown">
+          服務
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">烘焙班教學課程</a>
+          <a class="dropdown-item" href="#">自助烘焙體驗</a>
+          <a class="dropdown-item" href="#">包場服務</a>
+        </div>
+      </li>
+    <!--DIY Dropdown-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="diyDropdown" role="button" data-toggle="dropdown">DIY材料</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="/Pages/DIY/Tools.html">烘焙工具</a>
+          <a class="dropdown-item" href="/Pages/DIY/Jams.html">果醬/果蓉</a>
+          <a class="dropdown-item" href="/Pages/DIY/Flours.html">麵粉 / 其他粉類</a>
+          <a class="dropdown-item" href="/Pages/DIY/diary.html">奶類製品</a>
+        </div>
+      </li>
+    <!--Cake Dropdown-->
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cakeDropdown" role="button" data-toggle="dropdown">
+          預訂蛋糕款式
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="/Pages/cake series/cheese.html">芝士系列</a>
+          <a class="dropdown-item" href="/Pages/cake series/fruit.html">水果系列</a>
+          <a class="dropdown-item" href="/Pages/cake series/farewell.html">散水餅系列</a>
+          <a class="dropdown-item" href="/Pages/cake series/pet cake.html">寵物蛋糕系列</a>
+        </div>
+      </li>
+      <!--Shopping chart Dropdown-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="cartDropdown" role="button" data-toggle="dropdown">
+          購物車
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="/Pages/Shopping chart/order.html">訂單</a>
+          <a class="dropdown-item" href="/Pages/Shopping chart/payment method.html">付款方式</a>
+        </div>
+      </li>
+      </ul>
+    </div>
+  </nav>
+<!--Desktop Search bar-->
+    <form class=" d-none d-md-flex ml-auto align-items-center form-inline my-2 my-lg-0 search-bar">
+        <div class="input-group">
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <div class="input-group-append">
+        <button class="btn-search-btn" type="submit">
+          <i class="fas fa-search"></i> 搜尋
+        </button>
+      </div>
+    </div>
+  </div>
+</form>
+<!--Mobile Search bar-->
+<form class="form-inline d-md-none w-100 mt-2">
+<div class="input-group w-100">
+<input class="form-control" type="search" placeholder="Search" aria-label="Search">
+<div class="input-group-append">
+  <button class="btn search-btn" type="submit">
+    <i class="fas fa-search"></i>
+  </button>
+</div>
+</div>
+</form>
+</div>
+</div> 
+</nav>
+</header>
+  <!-- Hero 區塊 -->
+   <header class="hero d-flex align-items-center" style="background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url('sweet-cake.jpg') center/cover no-repeat; height: 80vh;">
+  <div class="container text-center">
+    <h1 class="display-4 font-weight-bold text-danger">Baking Corner</h1>
+    <p class="lead text-muted">用甜點療癒你的每一天 🍓🧁</p>
+    <a href="#cakes" class="btn btn-pink mt-4">立即看甜點</a>
+  </div>
+</header>
+
+  <!-- <header class="hero">
+    <h1>歡迎來到 Baking Corner</h1>
+    <p>享受甜點的每一刻</p>
+  </header> -->
+
+  <!-- 推薦蛋糕 -->
+  <section id="cakes" class="container">
+    <div class="section-title">精選蛋糕推薦</div>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img class="card-img-top" src="/Images/Products/Cake/Cheesecake/Baileys Caramel.png" alt="芝士蛋糕">
+          <div class="card-body">
+            <h5 class="card-title">芝士蛋糕</h5>
+            <p class="card-text">濃郁綿密的口感，經典必選。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img class="card-img-top" src="/Images/Products/Cake/Fruitcake/Mango Oolong.png" alt="水果蛋糕">
+          <div class="card-body">
+            <h5 class="card-title">水果蛋糕</h5>
+            <p class="card-text">酸甜水果搭配鮮奶油，爽口清新。</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img class="card-img-top" src="petcake.jpg" alt="寵物蛋糕">
+          <div class="card-body">
+            <h5 class="card-title">寵物蛋糕</h5>
+            <p class="card-text">為毛孩特製，無糖健康原料。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 頁尾 -->
+  <footer class="bg-light text-center py-4">
+    <p class="mb-0">&copy; 2025 Baking Corner 蛋糕小角落</p>
+  </footer>
+
+  <!-- Bootstrap 4 JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

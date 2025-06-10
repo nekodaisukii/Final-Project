@@ -1,0 +1,53 @@
+.banner-workshop {
+  background-color: bisque;
+  padding: 40px;
+  text-align: center;
+}
+.banner-workshop h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.banner-workshop .mkdf-mg-item-tagline {
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #7c4d00;
+}
+.banner-workshop img{
+  display:block;
+  max-width: 350px;
+  max-height:200px;
+}
+/* photo position testing */
+.responsive-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.responsive-image {
+  flex: 1 1 300px;
+  padding: 15px;
+  min-width: 250px;
+}
+.responsive-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.responsive-text {
+  flex: 1 1 300px;
+  padding: 15px;
+  min-width: 250px;
+}
+@media (max-width: 600px) {
+  .responsive-container {
+      flex-direction: column;
+  }
+  .responsive-image, .responsive-text {
+      flex: 1 1 auto;
+      width: 100%;
+  }
+}

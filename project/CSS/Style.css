@@ -1,0 +1,119 @@
+/* Navigation bar */
+.custom-navbar {
+  background-color: #FFE4E1;
+  border-radius: 0 0 20px 20px;
+  padding: 10px 20px;
+  font-family: 'Poppins', '微軟正黑體', sans-serif;
+}
+/* Nav Font Style */
+.navbar-nav .nav-link {
+  color: #D9487F !important;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+/* Search bar */
+.search-bar {
+  max-width: 250px; /* 或你想要的長度 */
+  max-height: 40px;
+  margin-left: auto;
+  margin-right: 0; 
+  float:right;
+}
+
+/* Button */
+.search-btn {
+  border-color: #FD6A75;
+  color: #FF90C3;
+  background-color: transparent !important;
+}
+.search-btn:hover {
+  background-color: #FF90C3;
+  color: white;
+  
+}
+
+/* Body part style */
+body {
+      font-family: "Microsoft JhengHei", sans-serif;
+    }
+    .hero {
+      background: url('cake-banner.jpg') center/cover no-repeat;
+      color: white;
+      padding: 100px 0;
+      text-align: center;
+    }
+    .section-title {
+      margin: 40px 0 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .product-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+  /* Button */
+    .btn-pink {
+  background: linear-gradient(45deg, #FF9AA2, #FFD3B5);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.btn-pink:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(255, 153, 153, 0.3);
+}
+
+/* 品牌字體色 */
+.text-pink {
+  color: #FF6F91 !important;
+}
+
+/* Hover 效果 */
+.navbar-nav .nav-link:hover {
+  color: #FF3366 !important;
+  text-decoration: underline;
+}
+
+/* Dropdown 內容 */
+.dropdown-menu {
+  background-color: #FFF0F5;
+  border-radius: 10px;
+  border: none;
+}
+
+.dropdown-item {
+  color: #D9487F;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #FFD3E0;
+  color: #FF3366;
+}
+.custom-navbar {
+  box-shadow: 0 4px 10px rgba(255, 192, 203, 0.3);
+}
+
+ /* Footer */
+.footer{
+  width:360px;
+  height:80px;
+  text-align:center;
+  line-height:80px;
+  font-size:15px;
+  color:#fffaf3;
+  font-weight:bold;
+  /* background-color:#ebe3e3; */
+  } 
+
+  /* 搜尋欄在手機上不顯示，可另設手機版彈出選單 */
+@media (max-width:750px){
+  .form-inline{
+    display: none !important;
+  }
+}
+ 
